@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="393.0" prefWidth="509.0" style="-fx-background-color: white; -fx-background-radius: 3; -fx-border-color: #3C8DBC; -fx-border-radius: 3; -fx-border-width: 4 0 0 0; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-padding: 4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Separator layoutX="13.0" layoutY="45.0" prefHeight="4.0" prefWidth="394.0" />
+      <Label fx:id="fullNameLabel" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="189.0" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="13.0" layoutY="97.0" prefHeight="4.0" prefWidth="244.0" />
+      <Separator layoutX="13.0" layoutY="154.0" prefHeight="4.0" prefWidth="244.0" />
+      <Separator layoutX="13.0" layoutY="385.0" prefHeight="4.0" prefWidth="244.0" />
+      <Label layoutX="13.0" layoutY="56.0" prefHeight="17.0" prefWidth="46.0" text="ΑΦΜ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="109.0" prefHeight="17.0" prefWidth="94.0" text="ΔΙΕΥΘΥΝΣΗ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="detailsLabel" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="283.0" layoutY="91.0" prefHeight="313.0" prefWidth="204.0" text="Lorem ipsum citation ullamco laboris nisi" wrapText="true">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="164.0" prefHeight="17.0" prefWidth="94.0" text="ΔΗΜΟΣ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="13.0" layoutY="209.0" prefHeight="4.0" prefWidth="244.0" />
+      <Separator layoutX="13.0" layoutY="267.0" prefHeight="4.0" prefWidth="244.0" />
+      <Label layoutX="14.0" layoutY="224.0" prefHeight="18.0" prefWidth="141.0" text="ΤΗΛ. ΕΠΙΚΟΙΝΩΝΙΑΣ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="13.0" layoutY="324.0" prefHeight="4.0" prefWidth="244.0" />
+      <Label layoutX="13.0" layoutY="277.0" prefHeight="17.0" prefWidth="77.0" text="ΙΣΤΟΣΕΛΙΔΑ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="337.0" prefHeight="17.0" prefWidth="94.0" text="ΤΡΕΧΩΝ ΕΡΓΟ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="56.0" prefHeight="17.0" prefWidth="102.0" text="ΠΛΗΡΟΦΟΡΙΕΣ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic Italic" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="270.0" layoutY="56.0" orientation="VERTICAL" prefHeight="353.0" prefWidth="4.0" />
+      <Label fx:id="afmLabel" layoutX="14.0" layoutY="81.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="addressLabel" layoutX="13.0" layoutY="135.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="municipalityLabel" layoutX="13.0" layoutY="190.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneNumLabel" layoutX="14.0" layoutY="248.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="webpageLabel" layoutX="13.0" layoutY="303.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentProjectLabel" layoutX="12.0" layoutY="366.0" prefHeight="21.0" prefWidth="221.0">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

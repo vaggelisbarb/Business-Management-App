@@ -1,0 +1,20 @@
+.button {
+	-fx-background-color:  #2A3F54;
+	-fx-border-color:  #7387A8;
+	-fx-text-fill: white;
+	-fx-border-width: 0px 0px 0px 7px;
+}
+
+.button:hover {
+	-fx-backgound-color: #B0C4DE;
+	-fx-border-color:  #7387A8;
+	-fx-text-fill: white;
+	-fx-border-width: 0px 0px 0px 2px;
+}
+
+.hover_border:hover{
+	-fx-backgound-color: #7387A8;
+	-fx-border-width: 0px 0px 0px 2px;
+	-fx-text-fill: white;
+	
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import com.sun.javafx.charts.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iNNOS.controllers.NewClientController">
+   <children>
+      <Pane layoutX="1.0" prefHeight="760.0" prefWidth="1102.0" style="-fx-background-color: white;" stylesheets="@graphics/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane alignment="CENTER" hgap="10.0" layoutX="29.0" layoutY="148.0" prefHeight="465.0" prefWidth="593.0" style="-fx-border-color: #2A3F54;" vgap="4.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="203.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="398.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="30.0" prefWidth="192.0" style="-fx-text-fill: #2A3F54;" text="Ονοματεπώνυμο" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="Α.Φ.Μ" textAlignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="Διεύθυνση" textAlignment="CENTER" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="Δήμος" textAlignment="CENTER" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="Τηλ. Επικοινωνίας" textAlignment="CENTER" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="email" textAlignment="CENTER" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="186.0" style="-fx-text-fill: #2A3F54;" text="Ιστοσελίδα" textAlignment="CENTER" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fullName" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font></TextField>
+                  <TextField fx:id="afm" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="address" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="municipality" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="phoneNumber" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="email" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="webpage" alignment="CENTER" prefHeight="32.0" prefWidth="285.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="18.0" left="18.0" right="18.0" top="10.0" />
+               </padding>
+            </GridPane>
+            <Label layoutX="29.0" layoutY="27.0" prefHeight="32.0" prefWidth="267.0" text="ΕΙΣΑΓΩΓΗ ΝΕΟΥ ΠΕΛΑΤΗ" textFill="#2a3f54">
+               <font>
+                  <Font name="Century Gothic Bold" size="22.0" />
+               </font></Label>
+            <Label layoutX="42.0" layoutY="133.0" prefHeight="30.0" prefWidth="139.0" style="-fx-text-fill: #2A3F54; -fx-background-color: white;" text="ΚΑΡΤΕΛΑ ΠΕΛΑΤΗ" textAlignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <GridPane alignment="CENTER" hgap="10.0" layoutX="648.0" layoutY="215.0" prefHeight="331.0" prefWidth="409.0" style="-fx-border-color: #2A3F54;" vgap="4.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="398.0" />
+               </columnConstraints>
+               <padding>
+                  <Insets bottom="23.0" left="23.0" right="23.0" top="23.0" />
+               </padding>
+               <rowConstraints>
+                  <RowConstraints maxHeight="402.0" minHeight="10.0" prefHeight="387.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextArea fx:id="clientDetails" prefHeight="276.0" prefWidth="366.0" promptText="Πληκτρολογίστε επιπλέον πληροφορίες για τον πελάτη." wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </GridPane>
+            <Label layoutX="661.0" layoutY="200.0" prefHeight="30.0" prefWidth="199.0" style="-fx-text-fill: #2A3F54; -fx-background-color: white;" text="ΚΑΡΤΕΛΑ ΠΛΗΡΟΦΟΡΙΩΝ" textAlignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <GridPane hgap="10.0" layoutX="393.0" layoutY="683.0" prefHeight="38.0" prefWidth="316.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button alignment="CENTER" graphicTextGap="25.0" mnemonicParsing="false" onAction="#addNewClientOnAction" prefHeight="26.0" prefWidth="146.0" style="-fx-text-fill: white; -fx-background-color: #2A3F54; -fx-background-radius: 15px;" text="Καταχώριση Πελάτη">
+                     <font>
+                        <Font name="Century Gothic Bold" size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" graphicTextGap="25.0" mnemonicParsing="false" onAction="#removeTextOnAction" prefHeight="26.0" prefWidth="146.0" style="-fx-text-fill: white; -fx-background-color: #2A3F54; -fx-background-radius: 15px;" text="Καθαρισμός πεδίων" textFill="#2a3f54" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Century Gothic Bold" size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Separator layoutX="13.0" layoutY="63.0" prefHeight="9.0" prefWidth="1075.0" />
+   </children>
+</AnchorPane>

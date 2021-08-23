@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iNNOS.controllers.InnosInfoController">
+   <children>
+      <Label layoutX="298.0" layoutY="183.0" text="ΕΣΩΤΕΡΙΚΟ ΣΥΣΤΗΜΑ ΔΙΑΧΕΙΡΗΣΗΣ ΕΡΓΩΝ" textFill="#2a3f54">
+         <font>
+            <Font name="Century Gothic" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="115.0" fitWidth="359.0" layoutX="386.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graphics/innos_logo.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar disable="true" layoutY="-2.0" prefHeight="32.0" prefWidth="1102.0" stylesheets="@graphics/style.css">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <GridPane alignment="CENTER" layoutX="409.0" layoutY="453.0" prefHeight="74.0" prefWidth="285.0" vgap="20.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="75.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Hyperlink fx:id="linkedinHP" alignment="CENTER" onAction="#linkedinOnAction" text="Linkedin" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold" size="16.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="viberHP" alignment="CENTER" text="Viber" textAlignment="CENTER" textFill="#9e2091" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold" size="16.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="webHP" alignment="CENTER" onAction="#websiteOnAction" text="Ιστοσελίδα" textAlignment="CENTER" textFill="#111010" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold" size="16.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="41.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@graphics/linkedin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@graphics/viber.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@graphics/www.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
